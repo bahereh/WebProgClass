@@ -1,0 +1,41 @@
+.imp{
+    color: blue;
+}
+
+h1{
+    color: red;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 1px solid black;
+}
+ol ul{
+    color: red;
+}
+
+a[target="_blank"]{
+background-color: aqua;
+}
+button{
+    background-color: green;
+}
+button:hover{
+    background-color: red;
+    font-size: 120%;
+}
+
+.container{
+    display: grid;
+    column-gap: 20px;
+    row-gap: 15px;
+    grid-template-columns: auto auto auto
+}
+.item{
+    color: red;
+    border: 1px solid blue;
+    padding: 20px;
+}
